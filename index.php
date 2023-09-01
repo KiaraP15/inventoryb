@@ -7,13 +7,9 @@
 <body>
   <div class="inventory">
     <h2>Inventory</h2>
-    <form class="item-form" action="compute.php" method="post">
-      <label for="item-select">Select an item:</label>
-      <select id="item-select" name="item_id">
-        <option value="Mango">Nike</option>
-        <option value="Banana">Adidas</option>
-        <option value="Apple">Puma</option>
-        <!-- Add more options here -->
+   <form class="item-form" action="compute.php" method="post">
+     <label for="Product_name" class="form-label"><h2>Product Name:</h2></label>
+      <input type="text" id="Product_name" name="product_name" required>
       </select>
       <label for="initial-quantity">Quantity:</label>
       <input type="number" id="initial-quantity" name="initial_quantity" min="0" required>
